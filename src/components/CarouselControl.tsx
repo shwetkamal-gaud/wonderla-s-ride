@@ -10,10 +10,10 @@ const CarouselControl = ({prevSlide, nextSlide}:{prevSlide:()=> void, nextSlide:
                 </h2>
             </div>
             <div className="flex items-center justify-center gap-4">
-                <button onClick={prevSlide} className="flex items-center justify-center size-9 sm:size-10 md:size-11 lg:size-12 rounded-full text-blue bg-yellow" tabIndex={0}>
+                <button onClick={prevSlide} className="flex items-center justify-center size-9 sm:size-10 md:size-11 lg:size-12 rounded-full text-blue cursor-pointer bg-yellow-500" tabIndex={0}>
                     <Left/>
                 </button>
-                <button onClick={nextSlide} className="flex items-center justify-center size-9 sm:size-10 md:size-11 lg:size-12 rounded-full text-blue bg-yellow" tabIndex={0}>
+                <button onClick={nextSlide} className="flex items-center justify-center size-9 sm:size-10 md:size-11 lg:size-12 rounded-full text-blue cursor-pointer bg-yellow-500" tabIndex={0}>
                     <Right />
                 </button>
             </div>
