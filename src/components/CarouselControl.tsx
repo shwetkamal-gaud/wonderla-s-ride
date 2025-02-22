@@ -1,7 +1,7 @@
 import Left from "../svgs/Left"
 import Right from "../svgs/Right"
 
-const CarouselControl = () => {
+const CarouselControl = ({prevSlide, nextSlide}:{prevSlide:()=> void, nextSlide:()=> void}) => {
     return (
         <div className="mr-[60px] flex justify-between gap-8">
             <div className="flex flex-col items-center text-center">
@@ -10,10 +10,10 @@ const CarouselControl = () => {
                 </h2>
             </div>
             <div className="flex items-center justify-center gap-4">
-                <button className="flex items-center justify-center size-9 sm:size-10 md:size-11 lg:size-12 rounded-full text-blue bg-yellow" tabIndex={0}>
+                <button onClick={prevSlide} className="flex items-center justify-center size-9 sm:size-10 md:size-11 lg:size-12 rounded-full text-blue bg-yellow" tabIndex={0}>
                     <Left/>
                 </button>
-                <button className="flex items-center justify-center size-9 sm:size-10 md:size-11 lg:size-12 rounded-full text-blue bg-yellow" tabIndex={0}>
+                <button onClick={nextSlide} className="flex items-center justify-center size-9 sm:size-10 md:size-11 lg:size-12 rounded-full text-blue bg-yellow" tabIndex={0}>
                     <Right />
                 </button>
             </div>

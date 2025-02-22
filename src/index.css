@@ -33,6 +33,9 @@ h1 {
   line-height: 1.1;
 }
 
+*{
+  box-sizing: border-box;
+}
 
 .ring{
   background: conic-gradient(from 0deg, rgb(232, 233, 241) -55deg, rgb(250, 213, 0) 15deg, rgb(250, 213, 0) 65deg, rgb(232, 233, 241) 135deg, rgb(232, 233, 241));
