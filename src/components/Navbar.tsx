@@ -1,6 +1,5 @@
-import { useEffect, useState } from 'react';
+import {  useState } from 'react';
 import LocationSvg from '../assets/LocationSvg';
-import { option } from 'framer-motion/client';
 
 const Navbar = () => {
     const [openDropdown, setOpenDropdown] = useState(null);
