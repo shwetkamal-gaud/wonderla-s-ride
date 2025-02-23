@@ -14,10 +14,10 @@ const RideCard = ({ ride }: { ride: Ride }) => {
     <div >
       <div className="relative h-[394px] w-[229px] overflow-hidden rounded-t-[26px] lg:h-[346px] lg:min-w-[246px] lg:rounded-t-[22px]">
         <div className="aspect-[229/394] w-[229px] lg:aspect-[246/346] lg:w-[246px]">
-          <video autoPlay loop playsInline preload="metadata" className="aspect-[229/394] w-full object-cover lg:aspect-[246/346]">
+{/*           <video autoPlay loop playsInline preload="metadata" className="aspect-[229/394] w-full object-cover lg:aspect-[246/346]">
             <source src={ride.video} type="video/mp4" />
             Your browser does not support the video tag
-          </video>
+          </video> */}
         </div>
         <div className="absolute inset-0 bg-[linear-gradient(180deg,_rgba(51,77,207,0)_50%,_#334DCF_100%)] lg:bg-[linear-gradient(180deg,_rgba(34,48,74,0),_#22304A)]">
         </div><div className="absolute inset-0 hidden lg:block lg:bg-[linear-gradient(180deg,_rgba(245,245,245,0)_34.08%,_#F5F5F501_100%)]"></div>
