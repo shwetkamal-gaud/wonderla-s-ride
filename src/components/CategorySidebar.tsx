@@ -18,7 +18,7 @@ const CategorySidebar = ({setCategory, category}: {setCategory:(value:string) =>
                         Land
 
                     </span>
-                    <span className="text-sm font-mulish font-normal !leading-[1.255] flex h-6 w-max items-center justify-center rounded-full bg-blue-light px-3">
+                    <span className="text-sm font-mulish font-normal !leading-[1.255] flex h-6 w-max items-center justify-center rounded-full bg-blue-400 px-3">
                         72 Rides
                     </span>
                 </div>
@@ -29,7 +29,7 @@ const CategorySidebar = ({setCategory, category}: {setCategory:(value:string) =>
                     <span className="text-xl inline-block font-mulish font-normal !leading-[1.255]">
                         Water
                     </span>
-                    <span className="text-sm font-mulish font-normal !leading-[1.255] flex h-6 w-max items-center justify-center rounded-full bg-blue-light px-3">
+                    <span className="text-sm font-mulish font-normal !leading-[1.255] flex h-6 w-max items-center justify-center rounded-full bg-blue-400 px-3">
                         54 Rides
                     </span>
                 </div>
@@ -40,7 +40,7 @@ const CategorySidebar = ({setCategory, category}: {setCategory:(value:string) =>
                     <span className="text-xl inline-block font-mulish font-normal !leading-[1.255]">
                         Kids
                     </span>
-                    <span className="text-sm font-mulish font-normal !leading-[1.255] flex h-6 w-max items-center justify-center rounded-full bg-blue-light px-3">
+                    <span className="text-sm font-mulish font-normal !leading-[1.255] flex h-6 w-max items-center justify-center rounded-full bg-blue-400 px-3">
                         35 Rides
                     </span>
                 </div>
