@@ -23,9 +23,9 @@ const RidesSection = () => {
     return () => clearInterval(interval);
   }, [index])
   return (
-    <div className="w-full min-h-screen">
-      <section className="relative h-[100vh]">
-        <div className="relative flex items-center h-full bg-blue lg:bg-blue-dark">
+    <div className="w-full">
+      <section className="h-[100vh]">
+        <div className="flex items-center h-full bg-blue lg:bg-blue-dark">
           <div className="w-full grid grid-cols-12 items-center">
             <div className="col-span-5">
 
@@ -44,7 +44,7 @@ const RidesSection = () => {
                     </div>
                   ))}
                 </div>
-                <a className="inline-block w-full max-w-[328px] " href="/rides"><div className="bg-yellow-400 capitalize h-14 w-full max-w-[328px] rounded-full text-base font-extrabold leading-tight flex items-center justify-center text-blue bg-yellow mb-0.5 mt-4" tabIndex={0}>
+                <a className="inline-block w-full max-w-[328px] " href="/rides"><div className="text-[#334DCF] bg-[#FAD600] capitalize h-14 w-full max-w-[328px] rounded-full text-base font-extrabold leading-tight flex items-center justify-center mb-0.5 mt-4" tabIndex={0}>
                   Explore All Rides!
                 </div>
                 </a>
